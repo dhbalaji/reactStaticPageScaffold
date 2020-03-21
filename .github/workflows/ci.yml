@@ -26,3 +26,5 @@ jobs:
       - run: npm test
         env:
           CI: true
+      - name: Echo the greeting's time
+          run: echo 'The time was ${{ steps.hello.outputs.time }}.'
