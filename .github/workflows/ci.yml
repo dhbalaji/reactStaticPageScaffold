@@ -1,18 +1,28 @@
-name: Hello CI
+name: Node.js CI
+
 on:
   push:
-    branches:
-      - master
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
 
 jobs:
   build:
-    name: ci-job
+
     runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [10.x, 12.x]
+
     steps:
-      name: Hello World
-      uses: actions/hello-world-javascript-action@v1
-      with:
-        who-to-greet: 'Mona the Octocat'
-      id: hello
-      - name: Echo the greeting's time
-      run: echo 'The time was ${{ steps.hello.outputs.time }}.'
+      - uses: actions/checkout@v2
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v1
+        with:
+          node-version: ${{ matrix.node-version }}
+      - run: npm ci
+      - run: npm run build --if-present
+      - run: npm test
+        env:
+          CI: true
