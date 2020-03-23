@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.2c34f1e4.chunk.css",
-    "main.js": "/static/js/main.a7a47487.chunk.js",
-    "main.js.map": "/static/js/main.a7a47487.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.66aef7a3.js",
-    "runtime-main.js.map": "/static/js/runtime-main.66aef7a3.js.map",
-    "static/js/2.35972ac6.chunk.js": "/static/js/2.35972ac6.chunk.js",
-    "static/js/2.35972ac6.chunk.js.map": "/static/js/2.35972ac6.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.088c44c8da3551cd358700901b1b5f0a.js": "/precache-manifest.088c44c8da3551cd358700901b1b5f0a.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.2c34f1e4.chunk.css.map": "/static/css/main.2c34f1e4.chunk.css.map",
-    "static/js/2.35972ac6.chunk.js.LICENSE.txt": "/static/js/2.35972ac6.chunk.js.LICENSE.txt",
-    "static/media/logo.svg": "/static/media/logo.5d5d9eef.svg"
+    "main.css": "/githubActionsReact/static/css/main.2c34f1e4.chunk.css",
+    "main.js": "/githubActionsReact/static/js/main.cba5df81.chunk.js",
+    "main.js.map": "/githubActionsReact/static/js/main.cba5df81.chunk.js.map",
+    "runtime-main.js": "/githubActionsReact/static/js/runtime-main.bb081006.js",
+    "runtime-main.js.map": "/githubActionsReact/static/js/runtime-main.bb081006.js.map",
+    "static/js/2.35972ac6.chunk.js": "/githubActionsReact/static/js/2.35972ac6.chunk.js",
+    "static/js/2.35972ac6.chunk.js.map": "/githubActionsReact/static/js/2.35972ac6.chunk.js.map",
+    "index.html": "/githubActionsReact/index.html",
+    "precache-manifest.edeb8c8d95d2a93e4106feea510cb6fd.js": "/githubActionsReact/precache-manifest.edeb8c8d95d2a93e4106feea510cb6fd.js",
+    "service-worker.js": "/githubActionsReact/service-worker.js",
+    "static/css/main.2c34f1e4.chunk.css.map": "/githubActionsReact/static/css/main.2c34f1e4.chunk.css.map",
+    "static/js/2.35972ac6.chunk.js.LICENSE.txt": "/githubActionsReact/static/js/2.35972ac6.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/githubActionsReact/static/media/logo.5d5d9eef.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.66aef7a3.js",
+    "static/js/runtime-main.bb081006.js",
     "static/js/2.35972ac6.chunk.js",
     "static/css/main.2c34f1e4.chunk.css",
-    "static/js/main.a7a47487.chunk.js"
+    "static/js/main.cba5df81.chunk.js"
   ]
 }
