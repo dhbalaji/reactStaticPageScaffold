@@ -1,0 +1,5 @@
+# Use prettier-ignore in your modules to suppress prettier.
+public
+build
+.github
+*.md
