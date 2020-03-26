@@ -1,8 +1,8 @@
-![Deploy to GitHub Pages](https://github.com/dhbalaji/github_actions_with_react/workflows/Deploy%20to%20GitHub%20Pages/badge.svg)
+![Deploy to GitHub Pages](https://dhbalaji.github.io/reactStaticPageScaffolder/workflows/Deploy%20to%20GitHub%20Pages/badge.svg)
 
 ## dhbalaji react static pages scaffolder
 
-Merge/push the code to master, github actions will automatically deploy and the output can be seen as [deployed static pages](https://dhbalaji.github.io/githubActionsReact/).
+Merge/push the code to master, github actions will automatically deploy and the output can be seen as [deployed static pages](https://dhbalaji.github.io/reactStaticPageScaffolder/).
 
 ## Steps involved in creating this project
 
