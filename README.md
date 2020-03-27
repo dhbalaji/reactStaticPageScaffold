@@ -1,4 +1,4 @@
-![Deploy to GitHub Pages](https://github.com/dhbalaji/github_actions_with_react/workflows/Deploy%20to%20GitHub%20Pages/badge.svg)
+![Deploy to GitHub Pages](https://github.com/dhbalaji/reactStaticPageScaffolder/workflows/Deploy%20to%20GitHub%20Pages/badge.svg)
 
 ## React Static Pages Scaffold
 
