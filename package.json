@@ -3,8 +3,14 @@
     "homepage": ".",
     "version": "0.1.0",
     "private": true,
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/dhbalaji/reactStaticPageScaffold"
+    },
     "dependencies": {
+        "husky": "^4.2.3",
         "node-sass": "^4.13.1",
+        "precise-commits": "^1.0.2",
         "react": "^16.13.1",
         "react-dom": "^16.13.1",
         "react-scripts": "3.4.1"
@@ -32,19 +38,15 @@
         ]
     },
     "devDependencies": {
-        "husky": "^4.2.3",
         "prettier": "2.0.2",
-        "pretty-quick": "^2.0.1",
         "source-map-explorer": "^2.4.1"
+    },
+    "engines": {
+        "npm": ">=8.0.0"
     },
     "husky": {
         "hooks": {
-            "pre-commit": "pretty-quick --staged"
+            "pre-commit": "precise-commits"
         }
-    },
-    "lint-staged": {
-        "src/**/*.{js,jsx,ts,tsx,json,css,scss,md}": [
-            "prettier --write"
-        ]
     }
 }
