@@ -1,5 +1,6 @@
 import React from 'react'
 import './App.scss'
+import LiveClock from './components/LiveClock'
 
 function App() {
     return (
@@ -10,8 +11,11 @@ function App() {
                     className="App-logo"
                     alt="logo"
                 />
-                <p>{process.env.REACT_APP_CODE}</p>
+                <p className="App-env"> > {process.env.REACT_APP_CODE}</p>
             </header>
+            <body className="centre-align">
+                <LiveClock />
+            </body>
         </div>
     )
 }
