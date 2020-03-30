@@ -1,13 +1,13 @@
-@import "../scss/breakpoints";
+@import '../scss/breakpoints';
 .clock {
-  font-size: 10rem;
-  color: #FFDE03;
-  text-align: center;
+    font-size: 10rem;
+    color: #ffde03;
+    text-align: center;
 
-  @include phone{
-    font-size: 5rem;
-    .seconds {
-      display: none;
+    @include phone {
+        font-size: 5rem;
+        .seconds {
+            display: none;
+        }
     }
-  }
 }
