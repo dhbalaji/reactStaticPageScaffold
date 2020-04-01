@@ -1,7 +1,8 @@
 @import '../scss/breakpoints';
+@import '../scss/variables';
 .clock {
     font-size: 10rem;
-    color: #ffde03;
+    color: $clock-text-color;
     text-align: center;
 
     @include phone {

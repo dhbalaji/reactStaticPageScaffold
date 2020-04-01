@@ -13,9 +13,9 @@ function App() {
                 />
                 <p className="App-env"> > {process.env.REACT_APP_CODE}</p>
             </header>
-            <body className="centre-align">
+            <main className="clock-wrapper centre-align">
                 <LiveClock />
-            </body>
+            </main>
         </div>
     )
 }
