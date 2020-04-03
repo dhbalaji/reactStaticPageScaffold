@@ -1,7 +1,14 @@
 @import 'scss/variables';
 @import "scss/breakpoints";
 .App {
-    background-color: $bg-color;
+    &.lightTheme {
+        background-color: $lightModeBackgroundColor;
+        color: $textColorLightMode;
+    }
+    &.darkTheme {
+        background-color: $darkModeBackgroundColor;
+        color: $textColorDarkMode;
+    }
     min-height: 100vh;
     min-width: 100%;
 
@@ -16,15 +23,10 @@
         left: -15rem;
         height: 20rem;
         opacity: 0.6;
+        animation: logo-spin infinite 10s linear;
 
         @include phone {
             top: 15%;
-        }
-
-        @media (prefers-reduced-motion: no-preference) {
-            &-logo {
-                animation: logo-spin infinite 10s linear;
-            }
         }
     }
 
@@ -32,7 +34,6 @@
         display: flex;
         align-items: flex-start;
         justify-content: space-between;
-        color: $white;
         font-size: 1rem;
         padding: 1rem;
         flex-direction: row-reverse;

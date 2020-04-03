@@ -2,7 +2,6 @@
 @import '../scss/variables';
 .clock {
     font-size: 10rem;
-    color: $clock-text-color;
     text-align: center;
 
     @include phone {
