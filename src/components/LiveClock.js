@@ -1,7 +1,7 @@
-import React, { Component } from 'react'
+import React, { useEffect, useState } from 'react'
 import './clock.scss'
 
-const getTime = () => {
+const getTimeEveryOneSecond = () => {
     const date = new Date()
     let hours = date.getHours()
     let minutes = date.getMinutes()
@@ -18,37 +18,25 @@ const getTime = () => {
     }
 }
 
-class LiveClock extends Component {
-    state = {
-        time: getTime()
-    }
+function LiveClock() {
+    const [{ hours, minutes, seconds }, setTime] = useState(
+        getTimeEveryOneSecond()
+    )
 
-    tick = () => {
-        this.setState((state) => ({
-            time: getTime()
-        }))
-    }
+    useEffect(() => {
+        let interval = setInterval(() => setTime(getTimeEveryOneSecond()), 1000)
+        return () => {
+            clearInterval(interval)
+        }
+    }, [])
 
-    componentDidMount() {
-        this.interval = setInterval(() => this.tick(), 1000)
-    }
-
-    componentWillUnmount() {
-        clearInterval(this.interval)
-    }
-
-    render() {
-        const {
-            time: { hours, minutes, seconds }
-        } = this.state
-        return (
-            <div className="clock">
-                <span className="hour">{hours}</span>
-                <span className="minutes"> : {minutes}</span>
-                <span className="seconds"> : {seconds}</span>
-            </div>
-        )
-    }
+    return (
+        <div className="clock">
+            <span className="hour">{hours}</span>
+            <span className="minutes"> : {minutes}</span>
+            <span className="seconds"> : {seconds}</span>
+        </div>
+    )
 }
 
 export default LiveClock
