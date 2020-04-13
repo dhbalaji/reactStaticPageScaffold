@@ -9,7 +9,8 @@ We have added support for
 * SCSS
 * Out of the box support for `env` for variables
 * Prettier for code style
-* Dark mode styling with CSS Media queries
+* Dark mode styling with CSS Media queries. Prints only in bright mode.
+* React router for navigating between pages
 
 > This repo is always up to date with latest npm packages.
 

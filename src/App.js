@@ -1,21 +1,20 @@
 import React from 'react'
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 import './App.scss'
-import LiveClock from './components/LiveClock'
+import Home from './components/Home'
+import About from './components/About'
 
 export default function App() {
     return (
-        <div className="App">
-            <header className="App-header">
-                <img
-                    src={process.env.PUBLIC_URL + '/img/logo.svg'}
-                    className="App-logo"
-                    alt="logo"
-                />
-                <p className="App-env"> > {process.env.REACT_APP_CODE}</p>
-            </header>
-            <main className="clock-wrapper centre-align">
-                <LiveClock />
-            </main>
-        </div>
+        <Router>
+            <Switch>
+                <Route path="/about">
+                    <About />
+                </Route>
+                <Route path="/">
+                    <Home />
+                </Route>
+            </Switch>
+        </Router>
     )
 }
