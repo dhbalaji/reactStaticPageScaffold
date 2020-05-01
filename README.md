@@ -5,7 +5,7 @@
 
 ## React Static Pages Template
 
-> If you are `show me the code` type of person, head to [Code Sandbox](https://codesandbox.io/s/github/dhbalaji/reactStaticPagesWithGithubActions?file=/src/App.js)
+> If you are `show me the code` type of person, head to <a href="https://codesandbox.io/s/github/dhbalaji/reactStaticPagesWithGithubActions?file=/src/App.js" target="_blank">CodeSandbox</a>
 
 This project customizes create-react-app scaffold and makes it better for building production ready static page apps in react.
 
