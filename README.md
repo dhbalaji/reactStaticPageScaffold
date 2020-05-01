@@ -1,6 +1,11 @@
-![Deploy to GitHub Pages](https://github.com/dhbalaji/reactStaticPageScaffolder/workflows/Deploy%20to%20GitHub%20Pages/badge.svg)
+![GitHub Workflow Status (branch)](https://img.shields.io/github/workflow/status/dhbalaji/reactStaticPagesWithGithubActions/Deploy%20to%20GitHub%20Pages/master?label=Deploy%20to%20Github%20Pages)
+![Maintenance](https://img.shields.io/maintenance/yes/2020)
+![GitHub last commit](https://img.shields.io/github/last-commit/dhbalaji/reactStaticPagesWithGithubActions)
+![GitHub](https://img.shields.io/github/license/dhbalaji/reactStaticPagesWithGithubActions)
 
 ## React Static Pages Template
+
+> If you are `show me the code` type of person, head to [Code Sandbox](https://codesandbox.io/s/github/dhbalaji/reactStaticPagesWithGithubActions?file=/src/App.js)
 
 This project customizes create-react-app scaffold and makes it better for building production ready static page apps in react.
 
