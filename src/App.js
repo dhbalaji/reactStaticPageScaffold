@@ -2,14 +2,14 @@ import React from 'react'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 import './App.scss'
 import Home from './components/Home'
-import About from './components/About'
+import Counter from './components/counter'
 
 export default function App() {
     return (
         <Router>
             <Switch>
-                <Route path="/about">
-                    <About />
+                <Route path="/counter">
+                    <Counter />
                 </Route>
                 <Route path="/">
                     <Home />
