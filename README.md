@@ -16,6 +16,8 @@ We have added support for
 * Prettier for code style
 * Dark mode styling with CSS Media queries. Prints only in bright mode.
 * React router for navigating between pages
+* React redux boilerplate
+* ImmutableJS for redux store
 
 > This repo is always up to date with latest npm packages.
 
