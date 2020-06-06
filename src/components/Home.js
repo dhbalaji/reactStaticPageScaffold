@@ -18,7 +18,9 @@ export default function Home() {
                 <LiveClock />
             </main>
             <footer>
-                <Link to="/counter">Counter</Link>
+                <button>
+                    <Link to="/counter">Counter</Link>
+                </button>
             </footer>
         </div>
     )
