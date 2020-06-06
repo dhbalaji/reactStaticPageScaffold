@@ -2,10 +2,11 @@ import { connect } from 'react-redux'
 import Counter from './Counter'
 import { bindActionCreators } from 'redux'
 import { incrementAction, decrementAction, clearAction } from './actions'
-import { getCount } from './selector'
+import { getCount, shouldShowToast } from './selector'
 function mapStateToProps(state) {
     return {
-        count: getCount(state)
+        count: getCount(state),
+        showError: shouldShowToast(state)
     }
 }
 

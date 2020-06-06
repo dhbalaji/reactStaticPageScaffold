@@ -1,9 +1,10 @@
 import { Map } from 'immutable'
-import { DECREMENT, INCREMENT } from '../actions'
+import { DECREMENT, ERROR, INCREMENT } from '../actions'
 import { getCount } from '../selector'
 
 export const initialState = Map({
-    count: 0
+    count: 0,
+    showToast: false
 })
 
 function reducer(state = initialState, action) {
@@ -16,6 +17,8 @@ function reducer(state = initialState, action) {
             return Map({
                 count: getCount(state) - 1
             })
+        case ERROR:
+            return state.set('showToast', true)
         default:
             return initialState
     }

@@ -23,6 +23,12 @@ h2 {
   font-family: "Arial Black", sans-serif;
 }
 
+.counter__err__txt {
+  background: firebrick;
+  color: white;
+  padding: 1rem;
+  margin: 1rem;
+}
 
 :global {
   button {

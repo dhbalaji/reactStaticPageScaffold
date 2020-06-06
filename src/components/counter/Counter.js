@@ -8,20 +8,29 @@ class Counter extends React.Component {
     }
 
     render() {
+        const {
+            showError,
+            decrementAction,
+            incrementAction,
+            count
+        } = this.props
         return (
             <div className={countercss.counter}>
                 <h2>Simple Counter</h2>
+                {showError && (
+                    <div className={countercss.counter__err__txt}>
+                        Max 5 allowed
+                    </div>
+                )}
                 <div>
                     <button
-                        onClick={this.props.decrementAction}
+                        onClick={decrementAction}
                         className={countercss.button}
                     >
                         -
                     </button>
-                    <span className={countercss.counter__text}>
-                        {this.props.count}
-                    </span>
-                    <button onClick={this.props.incrementAction}>+</button>
+                    <span className={countercss.counter__text}>{count}</span>
+                    <button onClick={incrementAction}>+</button>
                 </div>
 
                 <Link to="/">Home</Link>
