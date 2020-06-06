@@ -47,3 +47,7 @@ Your localhost should show a `dynamic digital clock` which ticks every second.Th
 ### On dark mode, the output would be similar to the below screenshot.
 
 ![](screenshots/dark-mode-detection-css-media-query.PNG)
+
+A dead simple `counter` example in react, redux, redux-thunk.
+
+![](screenshots/simple-react-counter.png)

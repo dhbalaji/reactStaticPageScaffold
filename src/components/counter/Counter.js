@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import countercss from './Counter.module.scss'
+import counterCss from './Counter.module.scss'
 
 class Counter extends React.Component {
     componentWillUnmount() {
@@ -15,21 +15,21 @@ class Counter extends React.Component {
             count
         } = this.props
         return (
-            <div className={countercss.counter}>
+            <div className={counterCss.counter}>
                 <h2>Simple Counter</h2>
                 {showError && (
-                    <div className={countercss.counter__err__txt}>
+                    <div className={counterCss.counter__err__txt}>
                         Max 5 allowed
                     </div>
                 )}
                 <div>
                     <button
                         onClick={decrementAction}
-                        className={countercss.button}
+                        className={counterCss.button}
                     >
                         -
                     </button>
-                    <span className={countercss.counter__text}>{count}</span>
+                    <span className={counterCss.counter__text}>{count}</span>
                     <button onClick={incrementAction}>+</button>
                 </div>
 
