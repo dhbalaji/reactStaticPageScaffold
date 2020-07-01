@@ -18,10 +18,9 @@ We have added support for
 * React router for navigating between pages
 * React redux boilerplate
 * ImmutableJS for redux store
+* Pre-configured CI/CD with github actions
 
 > This repo is always up to date with latest npm packages.
-
-I know its not convincing yet, `One last thing `. Merge/push the code to master, github actions will automatically deploy to github pages. No manual building and deployment tasks. Lets `Automation` take care of it.
 
 ## To get started
 
