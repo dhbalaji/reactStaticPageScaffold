@@ -2,7 +2,6 @@
 ![Maintenance](https://img.shields.io/maintenance/yes/2020)
 ![GitHub last commit](https://img.shields.io/github/last-commit/dhbalaji/reactStaticPagesWithGithubActions)
 ![GitHub](https://img.shields.io/github/license/dhbalaji/reactStaticPagesWithGithubActions)
-![New Size](https://github.com/dhbalaji/reactStaticPagesWithGithubActions/workflows/Compressed%20Size/badge.svg)
 
 ## React Static Pages Template
 
