@@ -51,10 +51,5 @@
     },
     "engines": {
         "npm": ">=8.0.0"
-    },
-    "husky": {
-        "hooks": {
-            "pre-commit": "precise-commits"
-        }
     }
 }
