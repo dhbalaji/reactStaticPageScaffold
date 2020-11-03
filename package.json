@@ -8,6 +8,8 @@
         "url": "https://github.com/dhbalaji/reactStaticPageScaffold"
     },
     "dependencies": {
+        "@sentry/react": "^5.27.2",
+        "@sentry/tracing": "^5.27.2",
         "immutable": "^4.0.0-rc.12",
         "node-sass": "^4.14.1",
         "react": "^16.14.0",
