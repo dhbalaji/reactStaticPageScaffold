@@ -19,13 +19,14 @@ class Counter extends React.Component {
                 <h2>Simple Counter</h2>
                 {showError && (
                     <div className={counterCss.counter__err__txt}>
-                        Max 5 allowed
+                        Max 100 allowed
                     </div>
                 )}
                 <div>
                     <button
                         onClick={decrementAction}
                         className={counterCss.button}
+                        disabled={count <= 0}
                     >
                         -
                     </button>

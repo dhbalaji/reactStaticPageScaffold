@@ -17,8 +17,9 @@ const store = createStore(
     composeEnhancers(applyMiddleware(ReduxThunk, logger))
 )
 
-export default () => (
-    <Provider store={store}>
-        <CounterContainer />
-    </Provider>
-)
+const wrappedCounter = () => (
+  <Provider store={store}>
+    <CounterContainer />
+  </Provider>
+);
+export default wrappedCounter;
