@@ -1,6 +1,6 @@
 {
     "name": "github_actions_with_react",
-    "homepage": ".",
+    "homepage": "https://dhbalaji.github.io/reactStaticPagesWithGithubActions",
     "version": "0.1.0",
     "private": true,
     "repository": {
@@ -27,7 +27,7 @@
         "build": "react-scripts build",
         "pretty-everything": "prettier --write .",
         "pretty-check": "prettier --check .",
-        "check_build_local": "npx serve build/"
+        "check_build_local": "npm run build && npx serve build/"
     },
     "eslintConfig": {
         "extends": "react-app"

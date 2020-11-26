@@ -6,7 +6,7 @@ import Counter from './components/counter'
 
 export default function App() {
     return (
-        <Router>
+        <Router basename='/reactStaticPagesWithGithubActions'>
             <Switch>
                 <Route path="/counter">
                     <Counter />
