@@ -11,7 +11,7 @@ This project customizes create-react-app scaffold and makes it better for buildi
 
 We have added support for 
 
-* SCSS
+* SCSS {dart-sass}
 * Out of the box support for `env` for variables
 * Prettier for code style
 * Dark mode styling with CSS Media queries. Prints only in bright mode.
