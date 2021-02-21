@@ -7,7 +7,7 @@
 
 > If you are `show me the code` type of person, head to <a href="https://codesandbox.io/s/github/dhbalaji/reactStaticPagesWithGithubActions?file=/src/App.js" target="_blank">CodeSandbox</a>
 
-> npx degit dhbalaji/reactStaticPagesWithGithubActions react-template
+> `npx degit dhbalaji/reactStaticPagesWithGithubActions react-template` on your terminal to get started
 
 This project customizes create-react-app scaffold and makes it better for building production ready static page apps in react.
 
