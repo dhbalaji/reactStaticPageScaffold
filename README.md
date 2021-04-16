@@ -1,5 +1,5 @@
 ![GitHub Workflow Status (branch)](https://img.shields.io/github/workflow/status/dhbalaji/reactStaticPagesWithGithubActions/Deploy%20to%20GitHub%20Pages/master?label=Deploy%20to%20Github%20Pages)
-![Maintenance](https://img.shields.io/maintenance/yes/2020)
+![Maintenance](https://img.shields.io/maintenance/yes/2021)
 ![GitHub last commit](https://img.shields.io/github/last-commit/dhbalaji/reactStaticPagesWithGithubActions)
 ![GitHub](https://img.shields.io/github/license/dhbalaji/reactStaticPagesWithGithubActions)
 
